@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>abc</title>
+    <script type="text/javascript" src="backupScript.js"></script>
+</head>
+
+<body>
+<div id="screen">
+    <button onclick=
+                    "show_image('http://google.com/images/logo.gif',
+                 276,
+                 110,
+                 'Google Logo',
+                 'test');">Add Google Logo</button>
+</div>
+<button onclick="delete_image()">Delete</button>
+
+
+<button onclick=
+                "delete_image();
+                show_image('http://www.slate.com/content/dam/slate/blogs/xx_factor/2014/doughnut.jpg.CROP.promo-mediumlarge.jpg',
+                 276,
+                 110,
+                 'Google Logo',
+                 '1');">Next up</button>
+
+<button onclick="create();">
+    Create Paragraph
+</button>
+<button onclick="replace()">Replace</button>
+<p id="p1">yes</p>
+
+<button onclick="specialCreate()">special create</button>
+
+<div id="buttonSwitch" style ="background-color: mediumaquamarine">
+    <button id="appleButton">Display Apple</button>
+    <script>
+        //Assigns onclick function to button to allow it to display an apple
+        document.getElementById("appleButton").addEventListener("click", function(){
+            displayApple('http://images6.fanpop.com/image/photos/34900000/Apple-fruit-34914779-260-295.jpg',150, 150, 'Apple', 'apple');
+        });
+    </script>
+</div>
+
+
+<div id="newIdeas">
+    <button onclick="numberCount()">Count</button>
+</div>
+
+
+</body>
+</html>
+
+<!--
+<div id="buttonSwitch" style ="background-color: mediumaquamarine">
+    <button onclick="displayApple('http://images6.fanpop.com/image/photos/34900000/Apple-fruit-34914779-260-295.jpg',150, 150, 'Apple', 'apple');" id="appleButton">Display Apple</button>
+</div>
+--->
+
+<!--<div id="buttonSwitch" style ="background-color: mediumaquamarine">
+    <button id="appleButton">Display Apple</button>
+    <script> displayApple('http://images6.fanpop.com/image/photos/34900000/Apple-fruit-34914779-260-295.jpg',150, 150, 'Apple', 'apple');</script>
+</div> -->

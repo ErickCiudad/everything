@@ -1,0 +1,25 @@
+body {
+    background-color:skyblue;
+    text-align: center;
+}
+
+#stuff{
+    padding: 50px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 750px;
+}
+
+#secondStuff{
+    color: gold;
+    text-align: center;
+    padding: 50px;
+    background-color: maroon;
+    margin-top: 25px;
+    margin-left: 200px;
+    float: right;
+    height: 500px;
+    position: relative; top: -257px;
+}

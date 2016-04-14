@@ -1,0 +1,146 @@
+body{
+    background-image: url("http://wallpapercave.com/wp/6G3gDoy.jpg");
+    background-size: 70%;
+    color: black;
+}
+#header {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 70%;
+    position: relative;
+    left: 15%;
+    text-align: center;
+    color: white;
+}
+
+#content{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadein 2s;
+    display: block;
+}
+
+#signUp{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadein 2s;
+    display: none;
+}
+
+#cart{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadein 2s;
+    display: none;
+}
+
+
+#login{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadein 2s;
+    display: none;
+}
+
+
+#contactUs{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadein 2s;
+    display: none;
+}
+
+
+#shop{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: fadein 2s;
+    display: none;
+}
+
+
+#footer{
+    background-color:rgba(0,0,0,0.75);
+    text-align: center;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    color:white;
+    margin-top: 5px;
+}
+
+#products{
+     background-color: rgba(255,255,255,0);
+     margin-right: auto;
+     text-align: center;
+     border: 1px;
+     table-layout: fixed;
+     z-index: 2;
+     position: relative;
+     width: 500px;
+    bottom: 1000px;
+
+ }
+
+#products2{
+    background-color: rgba(255,255,255,0);
+    margin-left: auto;
+    text-align: center;
+    border: 10px;
+    table-layout: fixed;
+    z-index: 2;
+    position: relative;
+    width: 500px;
+    bottom: 2200px;
+}
+
+#productsInfo{
+    background-color: rgba(0,0,0,0.30);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 10px;
+    table-layout: fixed;
+    width: 754px;
+    height: 1205px;
+    position: relative;
+    z-index: 2
+}
+
+
+
+#instrumentPic {
+    -webkit-transition: .4s ease-in-out opacity;
+    -moz-transition: .4s ease-in-out opacity;
+    -o-transition: .4s ease-in-out opacity;
+    transition: .4s ease-in-out opacity;
+}

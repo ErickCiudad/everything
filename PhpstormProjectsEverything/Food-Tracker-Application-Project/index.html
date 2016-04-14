@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        function showhide(id) {
+            var e = document.getElementById(id);
+            e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+            //SCRIPT TO ALLOW TOGGLE CONTENT TO WORK
+        }
+    </script>
+
+</head>
+<body>
+<div id="header">
+
+    <h1>Food Tracker</h1>
+
+        <a href="index.html"><button>Clear</button></a>
+    <a href="javascript:showhide('content')">
+        <!--BUTTON TO SHOW THE CONTENT AFTER HIDDEN-->
+        <!--<button onclick=$("foodLists").show();>Food List</button>-->
+    </a>
+
+</div>
+<p><br></p>
+<div id="content">
+
+    <script>$(function() {
+        $('foodLists').hide();
+    });
+        //HIDE ON LOAD, DOESN'T WORK
+    </script>
+
+    <form>
+            Name: <input id="name"/>
+            Description: <input id="desc"/>
+            Date: <input id="date"/>
+            Expiration: <input id="exp"/>
+            <input type="button" value="Submit" onclick="update()"/>
+        </form>
+    <table id="table" border="1" style="position: relative; left: 150px">
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Date</td>
+            <td>Expiration in days</td>
+        </tr>
+    </table>
+    </div>
+
+<div id="foodLists">
+
+</div>
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+</body>
+</html>

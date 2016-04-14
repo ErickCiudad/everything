@@ -1,0 +1,13 @@
+body {
+background-image: url(http://static.wixstatic.com/media/cf49d1_6ca6b16015e141ddbc67661e4f66ab42.png);
+background-size: 150px 150px;
+}
+#container{
+color: #A812B9;
+}
+#square {
+    width: 150px;
+    height: 1000px;
+    background: darkgray;
+    float: left;
+}

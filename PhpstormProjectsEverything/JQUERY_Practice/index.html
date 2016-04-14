@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Work</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>a.test {
+        font-weight: bold;
+        color: blue;
+        font-family: cursive;
+        font-size: 100px;
+
+    }
+    </style>
+</head>
+<body>
+<a href="http://jquery.com/">jQuery</a>
+<script src="jquery.js"></script>
+<script>
+    $(document).ready(function() {
+        $("a").click(function(event) {
+            alert("Thanks for visiting");
+            event.preventDefault();
+        });
+    });
+    $("a").addClass("test");
+
+</script>
+<div id="stuff"><img src="https://38.media.tumblr.com/tumblr_m9g1lpz0hh1r7yqun.gif"/></div>
+<p>Testing this yooooo</p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://thenypost.files.wordpress.com/2014/09/bear1.jpg");
+    background-size: 80px 60px;
+}
+
+#topBar {
+    background-color: crimson;
+    position: relative; bottom: -10px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin-right: 180px;
+    margin-left: 180px;
+    letter-spacing: 5px;
+
+}
+
+#navBar {
+    background-color: crimson;
+    position: relative; bottom: -10px; right: -180px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    width: 150px;
+    float:left;
+    letter-spacing: 2px;
+    height: 630px;
+}
+
+#contentBar {
+    background-color: crimson;
+    position: relative; bottom: -10px; left: -180px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    width: 550px;
+    float:right;
+    height: 630px;
+}
+
+#footBar{
+    background-color: crimson;
+    position: relative; bottom: -700px; left: 190px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    width: 765px;
+}
+
+ul {
+    width: 50%;
+}
+li {
+
+    width: 50%;
+}
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bears</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <script type="text/javascript" src="https://www.google.com/jsapi">
+    </script>
+    <script type="text/javascript" src="scripts.js">
+    </script>
+    <script>$(function ()
+    {
+        $('#imageid').on('click', function ()
+        {
+            $(this).width(1000);
+        });
+    });</script>
+
+</head>
+
+<body>
+<script src="jquery.js"></script>
+<script>
+    function themeOG() {
+        var themeTop = document.getElementById("topBar");
+        themeTop.style.backgroundColor = "crimson";
+        themeTop.style.color = "black";
+        var themeNav = document.getElementById("navBar");
+        themeNav.style.backgroundColor = "crimson";
+        themeNav.style.color = "black";
+        var themeCont = document.getElementById("contentBar");
+        themeCont.style.backgroundColor = "crimson";
+        themeCont.style.color = "black";
+        var themeFoot = document.getElementById("footBar");
+        themeFoot.style.backgroundColor = "crimson";
+        themeFoot.style.color = "black";
+    }
+    function themeSour() {
+        var themeTop = document.getElementById("topBar");
+        themeTop.style.backgroundColor = "lime";
+        themeTop.style.color = "magenta";
+        var themeNav = document.getElementById("navBar");
+        themeNav.style.backgroundColor = "lime";
+        themeNav.style.color = "magenta";
+        var themeCont = document.getElementById("contentBar");
+        themeCont.style.backgroundColor = "lime";
+        themeCont.style.color = "magenta";
+        var themeFoot = document.getElementById("footBar");
+        themeFoot.style.backgroundColor = "lime";
+        themeFoot.style.color = "magenta";
+    }
+    function themeIvory() {
+        var themeTop = document.getElementById("topBar");
+        themeTop.style.backgroundColor = "ivory";
+        themeTop.style.color = "grey";
+        var themeNav = document.getElementById("navBar");
+        themeNav.style.backgroundColor = "ivory";
+        themeNav.style.color = "grey";
+        var themeCont = document.getElementById("contentBar");
+        themeCont.style.backgroundColor = "ivory";
+        themeCont.style.color = "grey";
+        var themeFoot = document.getElementById("footBar");
+        themeFoot.style.backgroundColor = "ivory";
+        themeFoot.style.color = "grey";
+    }
+    function themeHornet() {
+        var themeTop = document.getElementById("topBar");
+        themeTop.style.backgroundColor = "black";
+        themeTop.style.color = "gold";
+        var themeNav = document.getElementById("navBar");
+        themeNav.style.backgroundColor = "black";
+        themeNav.style.color = "gold";
+        var themeCont = document.getElementById("contentBar");
+        themeCont.style.backgroundColor = "black";
+        themeCont.style.color = "gold";
+        var themeFoot = document.getElementById("footBar");
+        themeFoot.style.backgroundColor = "black";
+        themeFoot.style.color = "gold";
+    }
+    function themeRoyal() {
+        var themeTop = document.getElementById("topBar");
+        themeTop.style.backgroundColor = "#246C8B";
+        themeTop.style.color = "#DC5332";
+        var themeNav = document.getElementById("navBar");
+        themeNav.style.backgroundColor = "#246C8B";
+        themeNav.style.color = "#DC5332";
+        var themeCont = document.getElementById("contentBar");
+        themeCont.style.backgroundColor = "#246C8B";
+        themeCont.style.color = "#DC5332";
+        var themeFoot = document.getElementById("footBar");
+        themeFoot.style.backgroundColor = "#246C8B";
+        themeFoot.style.color = "#DC5332";
+    }
+    function themeSpring() {
+        var themeTop = document.getElementById("topBar");
+        themeTop.style.backgroundColor = "#F789B0";
+        themeTop.style.color = "#83ECB7";
+        var themeNav = document.getElementById("navBar");
+        themeNav.style.backgroundColor = "#F789B0";
+        themeNav.style.color = "#83ECB7";
+        var themeCont = document.getElementById("contentBar");
+        themeCont.style.backgroundColor = "#F789B0";
+        themeCont.style.color = "#83ECB7";
+        var themeFoot = document.getElementById("footBar");
+        themeFoot.style.backgroundColor = "#F789B0";
+        themeFoot.style.color = "#83ECB7";
+    }
+</script>
+
+
+<div id="topBar">
+    <h1>Data on Bears</h1>
+</div>
+<div id="navBar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><br></li>
+        <li><a href="dataPage.html">Statistics</a></li>
+        <li><br></li>
+        <li><a href="galleryPage.html">Gallery</a></li>
+        <li><br></li>
+        <li>Themes</li>
+        <li>vvvvvv</li>
+    </ul>
+    <!--THEME BUTTONS-->
+    <p><br></p>
+    <button type="button" onclick="themeOG()">Original</button>
+    <p><br></p>
+    <button type="button" onclick="themeSour()">Sour</button>
+    <p><br></p>
+    <button type="button" onclick="themeIvory()">Ivory</button>
+    <p><br></p>
+    <button type="button" onclick="themeHornet()">Hornet</button>
+    <p><br></p>
+    <button type="button" onclick="themeRoyal()">Royal</button>
+    <p><br></p>
+    <button type="button" onclick="themeSpring()">Spring</button>
+
+</div>
+<script>
+    $(document).ready(function(){
+        $('#thumbOne').on("click", function(){
+            $('div.mainPhoto').addClass('mainPhoto');
+        });
+    });
+    $(document).ready(function(){
+        $('#thumbTwo').on("click", function(){
+            $('div.mainPhoto').addClass('mainPhotoTwo');
+        });
+    });
+    $(document).ready(function(){
+        $('#thumbThree').on("click", function(){
+            $('div.mainPhoto').addClass('mainPhotoThree');
+        });
+    });
+</script>
+<div id="contentBar">
+    <p>Welcome to an informative website on bears</p>
+    <table  border="1px" align="center" style=background-color:ghostwhite;>
+        <tr>
+            <td><img id="pic1" onclick="document.getElementById('pic1').src='https://www.organicfacts.net/wp-content/uploads/2013/05/Banana21.jpg'"
+                    src="https://thenypost.files.wordpress.com/2014/04/bears1.jpg" width="150" height="100"/>
+                    <p id="p1">Mother Bear</p>
+                    <button onclick="input('p1')">Change</button>
+            </td>
+            <td><img src="http://assets.nydailynews.com/polopoly_fs/1.1145388.1346085781!/img/httpImage/image.jpg_gen/derivatives/article_970/bears28n-1-web.jpg?enlarged" width="150" height="100" id="pic2" onclick="clickResize2()"/>
+
+            <td><img src="http://www.harunyahya.com/image/world_of_animals/bear_01.jpg" width="150" height="100" id="pic3" onclick="document.getElementById('pic3').src='http://www.hawaiianwaffledogs.com/wp-content/uploads/2013/04/Banana-2.jpg'"/>
+            <p id="p2">Family Bear</p>
+            <button onclick="input2('p2')">Change</button></td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Panda_Cub_from_Wolong,_Sichuan,_China.JPG" width="150" height="100" id="pic4" onclick="clickResize4()"/></td>
+            <td><img src="http://static2.businessinsider.com/image/51dd6b0ceab8eaa223000013/chinas-panda-diplomacy-has-entered-a-lucrative-new-phase.jpg" width="150" height="100" id="pic5" onclick="document.getElementById('pic5').src='http://static.comicvine.com/uploads/original/11111/111114474/3293584-banana.jpg'"/>
+                <p id="p3">Hungry Bear</p>
+                <button onclick="input3('p3')">Change</button></td>
+            <td><img src="http://www.tnooz.com/wp-content/uploads/2013/12/angry-panda-690x300.jpg" width="150" height="100" id="pic6" onclick="clickResize6()"/></td>
+        </tr>
+        <tr>
+            <td><img src="http://ak-hdl.buzzfed.com/static/2014-05/enhanced/webdr07/16/16/anigif_enhanced-17584-1400271011-7.gif" height="100" id="pic7" onclick="document.getElementById('pic7').src='http://images5.fanpop.com/image/photos/30600000/Banana-gif-bananas-30667445-140-140.gif'" />
+                <p id="p4">Hi Bear</p>
+                <button onclick="input4('p4')">Change</button></td>
+            <td><img id="pic8" src="https://lh6.googleusercontent.com/-q8gr0iigqOs/TsBoo0RKldI/AAAAAAAALnQ/UwDzrIL_LCY/w506-h750/01849636_cool_gif.gif" width="150" height="100" onclick="clickResize8()"/></td>
+            <td><img src="http://www.adventure-journal.com/wp-content/uploads/2014/05/tumblr_mkt16xKkli1s4vbyeo1_500.gif" width="150" height="100" id="pic9"  onclick="document.getElementById('pic9').src='http://img.pandawhale.com/post-24631-Nick-Offerman-Banana-gif-Imgur-bJlN.gif'"/>
+                <p id="p5">Angry Bear</p>
+                <button onclick="input5('p5')">Change</button></td>
+        </tr>
+    </table>
+</div>
+<div id="footBar">
+    <p><br></p>
+    <a href="clickphotoPage.html"><button type="button">jQuery</button></a>
+    Copyright &copy; 2015 Erick Ciudad
+    <a href="notesPage.html"><button type="button">Notes</button></a>
+    <p><br></p>
+</div>
+<script></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AdventureQuest</title>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div id="header">
+    <p>Adventure Quest</p>
+</div>
+<div id="imageBox">
+    <img src="http://farm1.static.flickr.com/206/508563651_d10e426b25.jpg" width="600" height="300" id="picture"/> </div>
+
+<div id="textBox">
+    <p class="button" id="startButton" onclick="gameStart();" style="width: 865px;">Start Game</p>
+</div>
+
+<div id="answerBox">
+    <p class="button" style="position: relative; right: -50px; bottom: -30px;" id="leftKnob" onclick="leftClick()">Left</p>
+    <p class="button" style="position: relative; right: -720px; bottom: 24px;" id="rightKnob" onclick="rightClick()">Right</p>
+</div>
+
+<div id="torchBox1"><img src="http://i.imgur.com/zBDF80J.gif"/></div>
+<div id="torchBox2"><img src="http://i.imgur.com/zBDF80J.gif"/></div>
+
+<p id="pageNumber" style="width: 100px; background-color: cyan; position: relative;"><br></p>
+<script type="text/javascript" src="mainScript.js"></script>
+</body>
+</html>
